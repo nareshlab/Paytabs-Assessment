@@ -156,7 +156,7 @@ Example successful transaction responses captured in Postman (Gateway `POST /tra
 
 | Withdraw (amount 50.00) | Top-up (amount 55.00) |
 | ----------------------- | --------------------- |
-| ![Postman Withdraw Response](docs/images/Screenshot 2025-08-24 150834.png) | ![Postman Top-up Response](docs/images/Screenshot 2025-08-24 150812.png) |
+| ![Postman Withdraw Response](docs/images/Screenshot-2025-08-24-150834.png) | ![Postman Top-up Response](docs/images/Screenshot-2025-08-24-150812.png) |
 
 Both show:
 - HTTP 200 OK
@@ -165,7 +165,7 @@ Both show:
 - A unique `transactionId`
 - Updated `balance` reflecting the operation
 
-> Copy these local files into the repo to display the images:
+> Add the PNGs (renamed without spaces) to the repo:
 > C:\Users\DELL\Pictures\Screenshots\Screenshot 2025-08-24 150812.png  → docs/images/Screenshot-2025-08-24-150812.png
 > C:\Users\DELL\Pictures\Screenshots\Screenshot 2025-08-24 150834.png  → docs/images/Screenshot-2025-08-24-150834.png
-> (Names preserved with spaces replaced by hyphens for URL safety.)
+> After committing, the images above will render on GitHub.
