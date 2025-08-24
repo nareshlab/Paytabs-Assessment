@@ -298,5 +298,3 @@ mvn -q test
 | Withdraw | Decrease card balance if sufficient funds |
 | Masked Card | First 4 + ******** + last 4 digits |
 | PIN Hash | SHA-256 digest of plain PIN |
-
-> Source POC details merged; `POC-DOCUMENTATION.md` retained for historical reference.
