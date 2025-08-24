@@ -1,0 +1,52 @@
+# ---- Java / Maven ----
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+
+# ---- Spring Boot specific ----
+*.pid
+
+# ---- Node / React / Vite ----
+ui-react/node_modules/
+ui-react/dist/
+ui-react/build/
+ui-react/.vite/
+
+# ---- Environment files ----
+.env
+.env.*
+!.env.example
+
+# ---- Logs ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- Coverage / Reports ----
+coverage/
+**/surefire-reports/
+**/jacoco.exec
+
+# ---- IDE / Editor ----
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# ---- System ----
+.DS_Store
+Thumbs.db
+
+# ---- Misc ----
+*.swp
