@@ -152,11 +152,11 @@ curl -s http://localhost:8082/admin/transactions | jq '.[0:5]'
 
 ## 7) Postman Results
 
-Below are example successful transaction responses captured in Postman (Gateway `POST /transaction`). Add the two screenshot image files to the repo (e.g. `docs/images/`) using the suggested filenames and the Markdown below will render them.
+Example successful transaction responses captured in Postman (Gateway `POST /transaction`).
 
 | Withdraw (amount 50.00) | Top-up (amount 55.00) |
 | ----------------------- | --------------------- |
-| ![Postman Withdraw Response](docs/images/postman-withdraw.png) | ![Postman Top-up Response](docs/images/postman-topup.png) |
+| ![Postman Withdraw Response](docs/images/Screenshot-2025-08-24-150834.png) | ![Postman Top-up Response](docs/images/Screenshot-2025-08-24-150812.png) |
 
 Both show:
 - HTTP 200 OK
@@ -165,4 +165,7 @@ Both show:
 - A unique `transactionId`
 - Updated `balance` reflecting the operation
 
-> If the images don't display yet, commit the PNG files at the indicated paths (names may be changed, just update the links accordingly).
+> Copy these local files into the repo to display the images:
+> C:\Users\DELL\Pictures\Screenshots\Screenshot 2025-08-24 150812.png  → docs/images/Screenshot-2025-08-24-150812.png
+> C:\Users\DELL\Pictures\Screenshots\Screenshot 2025-08-24 150834.png  → docs/images/Screenshot-2025-08-24-150834.png
+> (Names preserved with spaces replaced by hyphens for URL safety.)
