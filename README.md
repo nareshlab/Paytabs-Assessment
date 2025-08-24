@@ -147,3 +147,22 @@ curl -s http://localhost:8082/admin/transactions | jq '.[0:5]'
 ## 6) Notes
 - Change seed PINs/balances in `CoreApplication#seed` if needed.
 - SHA-256 hashing is in `HashUtil`. No plain-text PINs are stored.
+
+---
+
+## 7) Postman Results
+
+Below are example successful transaction responses captured in Postman (Gateway `POST /transaction`). Add the two screenshot image files to the repo (e.g. `docs/images/`) using the suggested filenames and the Markdown below will render them.
+
+| Withdraw (amount 50.00) | Top-up (amount 55.00) |
+| ----------------------- | --------------------- |
+| ![Postman Withdraw Response](docs/images/postman-withdraw.png) | ![Postman Top-up Response](docs/images/postman-topup.png) |
+
+Both show:
+- HTTP 200 OK
+- `success: true`
+- Message: `"Approved"`
+- A unique `transactionId`
+- Updated `balance` reflecting the operation
+
+> If the images don't display yet, commit the PNG files at the indicated paths (names may be changed, just update the links accordingly).
