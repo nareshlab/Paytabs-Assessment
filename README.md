@@ -172,9 +172,7 @@ Both show:
 
 ---
 
-## 8) Detailed Documentation (Merged)
-
-This section consolidates the deeper design details originally in `POC-DOCUMENTATION.md`.
+## 8) Detailed Documentation 
 
 ### 8.1 Objective
 Proof-of-Concept illustrating:
